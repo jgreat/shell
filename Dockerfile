@@ -1,4 +1,4 @@
-from ubuntu:20.10
+FROM ubuntu:24.04
 
 RUN apt-get update && \
     apt-get install -y curl bash net-tools dnsutils && \
